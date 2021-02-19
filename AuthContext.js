@@ -33,11 +33,11 @@ export const useIsLoggedIn = () => {
   return isLoggedIn;
 };
 export const useLogIn = () => {
-  const { isLoggedIn } = useContext(AuthContext);
-  return;
+  const { logUserIn } = useContext(AuthContext);
+  return logUserIn;
 };
 
 export const useLogOut = () => {
-  const { isLoggedOut } = useContext(AuthContext);
-  return;
+  const { logUserOut } = useContext(AuthContext);
+  return logUserOut;
 };
